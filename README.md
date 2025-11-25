@@ -9,7 +9,7 @@ FINNIFTY	Tuesday
 
 This API accepts the index name and a reference date and returns the next expiry date.
 
-Features
+# Features
 
 Simple and lightweight Flask API
 Supports NIFTY, BANKNIFTY, FINNIFTY
@@ -17,7 +17,7 @@ Automatically calculates the nearest weekly expiry from the given date
 Returns clean JSON response
 Easy to test via browser or Postman
 
-How It Works
+# How It Works
 
 The API maps each index to its weekly expiry weekday
 Converts the input date into a Python datetime
